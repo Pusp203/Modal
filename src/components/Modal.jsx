@@ -7,7 +7,7 @@ const Modal = () => {
 
   return (
     <>
-      <button onClick={() => setShowModal(true)}>Open Modal</button>
+      <button onClick={() => setShowModal(true)}>Open Dialog</button>
 
       {showModal && <MyModal closeModal={closeModal} />}
     </>
